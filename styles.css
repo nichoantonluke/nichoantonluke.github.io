@@ -7,36 +7,36 @@ body {
     font-family: Arial, sans-serif;
     font-size: 14pt;
     background-color: #FAF0E6; 
-    color: #FF0000; 
+    color: #191970; 
     margin: 40pt; 
 }
 
 h1 {
     font-size: 24pt;
-    color: #191970; 
+    color: #FF0000; 
     text-align: center;
     margin-top: 40px;
 }
 
 h2 {
     font-size: 18pt;
-    color: #191970; 
+    color: #FF0000; 
     margin-top: 40px;
 }
 
 h3 {
     font-size: 16pt;
-    color: #191970; 
+    color: #FF0000; 
     margin-top: 40px;
 }
 
 p {
     font-size: 14pt;
-    color: #FF0000; 
+    color: #191970; 
 }
 
 a:link, a:visited {
-    color: #cc3366; 
+    color: #ea1c60; 
     text-decoration: none; 
 }
 
@@ -61,7 +61,7 @@ a:active {
 .table-cell {
     display: table-cell;
     padding: 10pt;
-    border: 5px solid #778899; 
+    border: 5px solid rgb(147, 191, 235); 
 }
 
 /* Two sets of divs for text and links */
@@ -81,7 +81,7 @@ a:active {
 }
 
 .link-column a:hover {
-    color: #ff9900;
+    color: #ac997c;
 }
 
 .link-column a:active {
