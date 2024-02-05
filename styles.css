@@ -76,7 +76,7 @@ a:active {
 /* Additional styling for links within the table cells */
 .link-column a:link,
 .link-column a:visited {
-    color: #3366cc;
+    color: #cc5e33;
     text-decoration: none;
 }
 
