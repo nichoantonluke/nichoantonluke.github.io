@@ -36,16 +36,16 @@ p {
 }
 
 a:link, a:visited {
-    color: #ea1c60; 
+    color: #9400fd; 
     text-decoration: none; 
 }
 
 a:hover {
-    color: #A9A9A9; 
+    color: #e2a03d; 
 }
 
 a:active {
-    color: #A9A9A9; 
+    color: #990000; 
 }
 
 /* Table layout */
@@ -76,7 +76,7 @@ a:active {
 /* Additional styling for links within the table cells */
 .link-column a:link,
 .link-column a:visited {
-    color: #14e070;
+    color: #9400fd;
     text-decoration: none;
 }
 
