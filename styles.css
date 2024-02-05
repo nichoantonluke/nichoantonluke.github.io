@@ -37,7 +37,6 @@ p {
 
 a:link, a:visited {
     color: #9400fd; 
-    text-decoration: none; 
 }
 
 a:hover {
@@ -77,7 +76,6 @@ a:active {
 .link-column a:link,
 .link-column a:visited {
     color: #9400fd;
-    text-decoration: none;
 }
 
 .link-column a:hover {
