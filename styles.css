@@ -1,0 +1,89 @@
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    background-color: #FAF0E6; 
+    color: #FF0000; 
+    margin: 20pt; 
+}
+
+h1 {
+    font-size: 24pt;
+    color: #191970; 
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 18pt;
+    color: #191970; 
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 16pt;
+    color: #191970; 
+    margin-top: 10px;
+}
+
+p {
+    font-size: 14pt;
+    color: #FF0000; 
+}
+
+a:link, a:visited {
+    color: #cc3366; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #A9A9A9; 
+}
+
+a:active {
+    color: #A9A9A9; 
+}
+
+/* Table layout */
+.table-container {
+    display: table;
+    width: 50%;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+    padding: 10pt;
+    border: 5px solid #778899; 
+}
+
+/* Two sets of divs for text and links */
+.text-column {
+    width: 40%;
+}
+
+.link-column {
+    width: 60%;
+}
+
+/* Additional styling for links within the table cells */
+.link-column a:link,
+.link-column a:visited {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.link-column a:hover {
+    color: #ff9900;
+}
+
+.link-column a:active {
+    color: #990000;
+}
