@@ -35,12 +35,18 @@ p {
     color: #191970; 
 }
 
-a:link, a:visited {
+a:link {
     color: #9400fd; 
+    text-decoration: underline ;
+}
+
+a:visited {
+    color: #fd9c00; 
+    text-decoration: dashed;
 }
 
 a:hover {
-    color: #e2a03d; 
+    color: #00ff51; 
 }
 
 a:active {
@@ -63,7 +69,6 @@ a:active {
     border: 5px solid rgb(147, 191, 235); 
 }
 
-/* Two sets of divs for text and links */
 .text-column {
     width: 40%;
 }
@@ -72,14 +77,18 @@ a:active {
     width: 60%;
 }
 
-/* Additional styling for links within the table cells */
-.link-column a:link,
+.link-column a:link{
+    color: #9400fd; 
+    text-decoration: underline ;
+}
+
 .link-column a:visited {
-    color: #9400fd;
+    color: #fd9c00; 
+    text-decoration: dashed;
 }
 
 .link-column a:hover {
-    color: #e2a03d;
+    color: #00ff51;
 }
 
 .link-column a:active {
