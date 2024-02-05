@@ -35,14 +35,9 @@ p {
     color: #191970; 
 }
 
-a:link {
+a:link, a:visited {
     color: #9400fd; 
     text-decoration: underline ;
-}
-
-a:visited {
-    color: #fd9c00; 
-    text-decoration: dashed;
 }
 
 a:hover {
@@ -77,14 +72,9 @@ a:active {
     width: 60%;
 }
 
-.link-column a:link{
+.link-column a:link, .link-column a:visited{
     color: #9400fd; 
     text-decoration: underline ;
-}
-
-.link-column a:visited {
-    color: #fd9c00; 
-    text-decoration: dashed;
 }
 
 .link-column a:hover {
