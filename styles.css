@@ -76,12 +76,12 @@ a:active {
 /* Additional styling for links within the table cells */
 .link-column a:link,
 .link-column a:visited {
-    color: #cc5e33;
+    color: #14e070;
     text-decoration: none;
 }
 
 .link-column a:hover {
-    color: #ac997c;
+    color: #e2a03d;
 }
 
 .link-column a:active {
