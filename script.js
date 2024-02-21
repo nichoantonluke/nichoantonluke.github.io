@@ -34,3 +34,24 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var menuItems = document.querySelectorAll('nav ul li');
+    
+    // Add event listeners for mouseover and mouseout
+    menuItems.forEach(function(item) {
+        item.addEventListener('mouseover', function() {
+            this.style.backgroundColor = '#eee'; // Change background color on mouseover
+        });
+
+        item.addEventListener('mouseout', function() {
+            this.style.backgroundColor = 'transparent'; // Reset background color on mouseout
+        });
+
+        item.addEventListener('click', function() {
+            if (item.querySelector('a')) {
+                window.location.href = item.querySelector('a').getAttribute('href');
+            }
+        });
+    });
+});
