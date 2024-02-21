@@ -22,3 +22,15 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var menuItems = document.querySelectorAll('nav ul li');
+    menuItems.forEach(function(item) {
+        item.addEventListener('click', function() {
+            if (item.querySelector('a')) {
+                // If the clicked item has a link, navigate to the link
+                window.location.href = item.querySelector('a').getAttribute('href');
+            }
+        });
+    });
+});
