@@ -9,3 +9,16 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    var myImage = document.getElementById('myImage');
+
+    myImage.addEventListener('click', function() {
+        // Toggle image size on click
+        if (this.style.width === '200px') {
+            this.style.width = '400px'; // Enlarge the image
+        } else {
+            this.style.width = '200px'; // Shrink the image back to its original size
+        }
+    });
+});
