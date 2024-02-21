@@ -1,40 +1,66 @@
-// Function to display name in HTML element
+// a. Create a button that will prompt a user to type in their name on your own homepage.
+document.addEventListener('DOMContentLoaded', function() {
+    var nameButton = document.createElement('button');
+    nameButton.textContent = 'Enter Your Name';
+    nameButton.addEventListener('click', function() {
+        var name = prompt('Please enter your name:');
+        if (name) {
+            document.getElementById('output').textContent = 'Hello, ' + name + '!';
+        }
+    });
+    document.body.appendChild(nameButton);
+});
 
-function displayName() {
-    var name = document.getElementById("nameInput").value;
-    if (name !== "") {
-        document.getElementById("nameDisplay").innerText = "Hello " + name + "!";
-    }
-}
+// b. Make a clickable image of yourself on your homepage.
+document.addEventListener('DOMContentLoaded', function() {
+    var myImage = document.createElement('img');
+    myImage.src = 'subdirectory/MyPic.jpg'; // Change the path to your image
+    myImage.addEventListener('click', function() {
+        myImage.style.width = '200px'; // Change the width as desired
+    });
+    document.body.appendChild(myImage);
+});
 
-// Function to enlarge the image
-function enlargeImage() {
-    this.style.width = "200px"; // Change the width of the image upon click
-}
+// c. Create a customized and working navigation menu
+document.addEventListener('DOMContentLoaded', function() {
+    var navMenu = document.createElement('nav');
+    var homeLink = document.createElement('a');
+    homeLink.href = 'index.html'; // Change the href to your homepage
+    homeLink.textContent = 'Home';
 
-// Function to reset the image size
-function resetImageSize() {
-    this.style.width = "100px"; // Reset the width of the image when mouseout
-}
+    var aboutLink = document.createElement('a');
+    aboutLink.href = 'about.html'; // Change the href to your about page
+    aboutLink.textContent = 'About';
 
-// Function to handle navigation menu hover effects
-function handleHover() {
-    this.style.backgroundColor = "lightgray"; // Change background color on hover
-}
+    var contactLink = document.createElement('span'); // Just for demonstration, doesn't link anywhere
+    contactLink.textContent = 'Contact';
 
-function handleHoverOut() {
-    this.style.backgroundColor = ""; // Reset background color on hover out
-}
+    var menu1 = document.createElement('ul');
+    var menuItem1 = document.createElement('li');
+    menuItem1.textContent = 'Menu Item 1';
+    var menuItem2 = document.createElement('li');
+    menuItem2.textContent = 'Menu Item 2';
 
-// Add event listeners for navigation menu items
-document.getElementById("homeNavItem").addEventListener("mouseover", handleHover);
-document.getElementById("homeNavItem").addEventListener("mouseout", handleHoverOut);
-document.getElementById("aboutNavItem").addEventListener("mouseover", handleHover);
-document.getElementById("aboutNavItem").addEventListener("mouseout", handleHoverOut);
+    menu1.appendChild(menuItem1);
+    menu1.appendChild(menuItem2);
 
-// Add event listener for the name display button
-document.getElementById("nameButton").addEventListener("click", displayName);
+    navMenu.appendChild(homeLink);
+    navMenu.appendChild(aboutLink);
+    navMenu.appendChild(contactLink);
+    navMenu.appendChild(menu1);
 
-// Add event listener for image click
-document.getElementById("myImage").addEventListener("click", enlargeImage);
-document.getElementById("myImage").addEventListener("mouseout", resetImageSize);
+    document.body.insertBefore(navMenu, document.body.firstChild);
+});
+
+// d. Include an onmouseover/onmouseout event for your nav items
+document.addEventListener('DOMContentLoaded', function() {
+    var navItems = document.querySelectorAll('nav a');
+    navItems.forEach(function(navItem) {
+        navItem.addEventListener('mouseover', function() {
+            this.style.backgroundColor = 'lightgray';
+        });
+        navItem.addEventListener('mouseout', function() {
+            this.style.backgroundColor = 'transparent';
+        });
+    });
+});
