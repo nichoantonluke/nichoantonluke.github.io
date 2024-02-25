@@ -14,11 +14,10 @@ document.addEventListener('DOMContentLoaded', function() {
     var myImage = document.getElementById('myImage');
 
     myImage.addEventListener('click', function() {
-        // Toggle image size on click
         if (this.style.width === '200px') {
-            this.style.width = '400px'; // Enlarge the image
+            this.style.width = '400px'; 
         } else {
-            this.style.width = '200px'; // Shrink the image back to its original size
+            this.style.width = '200px'; 
         }
     });
 });
@@ -28,7 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
     menuItems.forEach(function(item) {
         item.addEventListener('click', function() {
             if (item.querySelector('a')) {
-                // If the clicked item has a link, navigate to the link
                 window.location.href = item.querySelector('a').getAttribute('href');
             }
         });
@@ -37,15 +35,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
     var menuItems = document.querySelectorAll('nav ul li');
-    
-    // Add event listeners for mouseover and mouseout
+
     menuItems.forEach(function(item) {
         item.addEventListener('mouseover', function() {
-            this.style.backgroundColor = '#eee'; // Change background color on mouseover
+            this.style.backgroundColor = '#33FF39'; 
         });
 
         item.addEventListener('mouseout', function() {
-            this.style.backgroundColor = 'transparent'; // Reset background color on mouseout
+            this.style.backgroundColor = 'transparent'; 
         });
 
         item.addEventListener('click', function() {
