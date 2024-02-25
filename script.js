@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     menuItems.forEach(function(item) {
         item.addEventListener('mouseover', function() {
-            this.style.backgroundColor = '#33FF39'; 
+            this.style.backgroundColor = '#FAFCBF'; 
         });
 
         item.addEventListener('mouseout', function() {
