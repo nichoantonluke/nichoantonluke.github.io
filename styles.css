@@ -128,3 +128,13 @@ nav ul ul li {
     top: 100%;
     left: 0;
 }
+
+.content-wrapper {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+/* Adjust spacing between image and section */
+#myImage {
+    margin-right: 20px; /* Adjust margin as needed */
+}
