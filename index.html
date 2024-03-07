@@ -24,6 +24,37 @@
         </ul>
     </nav>
 
+    <h2>User Input Form</h2>
+    <form id="userForm">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br>
+
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="hobby1" name="hobbies" value="reading">
+        <label for="hobby1">Reading</label><br>
+        <input type="checkbox" id="hobby2" name="hobbies" value="gardening">
+        <label for="hobby2">Gardening</label><br>
+        <input type="checkbox" id="hobby3" name="hobbies" value="cooking">
+        <label for="hobby3">Cooking</label><br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments"></textarea><br>
+
+        <button type="button" onclick="storeFormData()">Submit</button>
+        <button type="button" onclick="clearForm()">Clear</button>
+    </form>
+
     <header>
         <h1>Nicho Anton Luke</h1>
     </header>
