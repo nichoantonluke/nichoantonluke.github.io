@@ -53,30 +53,3 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-function storeFormData() {
-    var formData = {};
-
-    // Get input values
-    formData['name'] = document.getElementById('name').value;
-    formData['email'] = document.getElementById('email').value;
-    formData['gender'] = document.querySelector('input[name="gender"]:checked').value;
-
-    var hobbies = [];
-    var checkboxes = document.getElementsByName('hobbies');
-    checkboxes.forEach(function(checkbox) {
-        if (checkbox.checked) {
-            hobbies.push(checkbox.value);
-        }
-    });
-    formData['hobbies'] = hobbies;
-
-    formData['comments'] = document.getElementById('comments').value;
-
-    // Store data in local storage
-    localStorage.setItem('formData', JSON.stringify(formData));
-}
-
-// Function to clear/reset form fields
-function clearForm() {
-    document.getElementById('userForm').reset();
-}
