@@ -13,39 +13,39 @@ body {
 
 h1 {
     font-size: 24pt;
-    color: #FF0000; 
+    color: #0037ff; 
     text-align: center;
     margin-top: 40px;
 }
 
 h2 {
     font-size: 18pt;
-    color: #FF0000; 
+    color: #0037ff; 
     margin-top: 40px;
 }
 
 h3 {
     font-size: 16pt;
-    color: #FF0000; 
+    color: #0037ff; 
     margin-top: 40px;
 }
 
 p {
     font-size: 14pt;
-    color: #191970; 
+    color: #4210cb; 
 }
 
 a:link, a:visited {
-    color: #9400fd; 
+    color: #fd00ba; 
     text-decoration: underline ;
 }
 
 a:hover {
-    color: #00ff51; 
+    color: #fd00ba; 
 }
 
 a:active {
-    color: #990000; 
+    color: #fd00ba; 
 }
 
 /* Table layout */
