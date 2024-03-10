@@ -77,4 +77,4 @@ form.addEventListener('submit', function(event) {
   localStorage.setItem('formData', JSON.stringify(data));
   
   alert('Form submitted successfully!');
-
+});
