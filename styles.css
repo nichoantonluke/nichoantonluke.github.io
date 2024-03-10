@@ -143,5 +143,5 @@ nav ul ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Optional: Centers vertically */
+    height: 100vh; 
   }
