@@ -53,3 +53,28 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+const form = document.getElementById('contactForm');
+    
+form.addEventListener('submit', function(event) {
+  event.preventDefault();
+  
+  const formData = new FormData(form);
+  const entries = Array.from(formData.entries());
+  const data = {};
+  
+  entries.forEach(entry => {
+    const [key, value] = entry;
+    if (data[key]) {
+      if (!Array.isArray(data[key])) {
+        data[key] = [data[key]];
+      }
+      data[key].push(value);
+    } else {
+      data[key] = value;
+    }
+  });
+  
+  localStorage.setItem('formData', JSON.stringify(data));
+  
+  alert('Form submitted successfully!');
+
