@@ -145,7 +145,8 @@ nav ul ul li {
 }
 
 .section-box {
-    border: 2px solid #000; /* Border style */
+    background-color: #83ccd4;
+    border: 2px solid #0037ff; /* Border style */
     padding: 20px; /* Padding to create space between content and border */
 }
 
