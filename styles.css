@@ -12,7 +12,8 @@ body {
 }
 
 h1 {
-    font-size: 24pt;
+    font-family: Brush Script MT;
+    font-size: 50pt;
     color: #0037ff; 
     text-align: center;
     margin-top: 40px;
@@ -83,6 +84,10 @@ a:active {
 
 .link-column a:active {
     color: #990000;
+}
+
+nav {
+    text-align: left;
 }
 
 nav ul {
