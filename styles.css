@@ -12,11 +12,11 @@ body {
 }
 
 h1 {
-    font-family: Brush Script MT;
+    font-family: Verdana (san-serif);
     font-size: 50pt;
-    color: #0037ff; 
+    color: #ff0000; 
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 h2 {
@@ -145,8 +145,8 @@ nav ul ul li {
 }
 
 .section-box {
-    background-color: #83ccd4;
-    border: 2px solid #0037ff; /* Border style */
+    background-color: #f9feff;
+    border: 2px solid #ff0000; /* Border style */
     padding: 20px; /* Padding to create space between content and border */
 }
 
