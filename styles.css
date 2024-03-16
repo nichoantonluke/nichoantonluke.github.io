@@ -150,3 +150,7 @@ nav ul ul li {
     padding: 20px; /* Padding to create space between content and border */
 }
 
+label {
+    color: #ff0000    
+  }
+
