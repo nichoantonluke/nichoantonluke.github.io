@@ -21,19 +21,19 @@ h1 {
 
 h2 {
     font-size: 18pt;
-    color: #0037ff; 
+    color: #ff0000; 
     margin-top: 40px;
 }
 
 h3 {
     font-size: 16pt;
-    color: #0037ff; 
+    color: #ff0000; 
     margin-top: 40px;
 }
 
 p {
     font-size: 14pt;
-    color: #4210cb; 
+    color: #ff0000; 
 }
 
 a:link, a:visited {
