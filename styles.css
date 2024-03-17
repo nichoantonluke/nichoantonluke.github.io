@@ -90,36 +90,39 @@ nav {
     text-align: right;
 }
 
-.nav {
-    background-color: #ffffff; /* Background color of the navigation bubble */
-    padding: 10px; /* Padding around the navigation items */
-    border-radius: 20px; /* Rounded corners to create a bubble effect */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
-  }
-  
-  .nav ul {
-    list-style-type: none; /* Remove default list styles */
+nav ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-  }
-  
-  .nav ul li {
-    display: inline; /* Display the navigation items horizontally */
-    margin-right: 20px; /* Spacing between navigation items */
-  }
-  
-  .nav ul li:last-child {
-    margin-right: 0; /* Remove right margin from the last navigation item */
-  }
-  
-  .nav ul li a {
-    text-decoration: none; /* Remove underline from links */
-    color: #ff0000; /* Text color of navigation links */
-  }
-  
-  .nav ul li a:hover {
-    color: #0d00ff; /* Text color of navigation links on hover */
-  }
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a, nav ul li span {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 0;
+}
+
+nav ul ul li {
+    display: block;
+}
 
 .menu-item {
     position: relative;
