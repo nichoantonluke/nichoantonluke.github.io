@@ -6,47 +6,47 @@ body, h1, h2, p, a {
 body {
     font-family: Arial, sans-serif;
     font-size: 14pt;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%, #0f2959 0%, #6db4c6 90% ); 
-    color: #ff0000; 
+    background-image: #1b1b2c; 
+    color: #ffffff; 
     margin: 40pt; 
 }
 
 h1 {
     font-family: Verdana (san-serif);
     font-size: 50pt;
-    color: #ff0000; 
+    color: #00741f; 
     text-align: center;
     margin-top: 20px;
 }
 
 h2 {
     font-size: 18pt;
-    color: #ff0000; 
+    color: #00741f; 
     margin-top: 40px;
 }
 
 h3 {
     font-size: 16pt;
-    color: #ff0000; 
+    color: #00741f; 
     margin-top: 40px;
 }
 
 p {
     font-size: 14pt;
-    color: #ff0000; 
+    color: #ffffff; 
 }
 
 a:link, a:visited {
-    color: #fd00ba; 
+    color: #ffffff; 
     text-decoration: underline ;
 }
 
 a:hover {
-    color: #fd00ba; 
+    color: #00741f; 
 }
 
 a:active {
-    color: #fd00ba; 
+    color: #f2ff00; 
 }
 
 /* Table layout */
@@ -142,12 +142,6 @@ nav ul ul li {
 /* Adjust spacing between image and section */
 #myImage {
     margin-right: 20px; /* Adjust margin as needed */
-}
-
-.section-box {
-    background-color: #f9feff;
-    border: 2px solid #ff0000; /* Border style */
-    padding: 20px; /* Padding to create space between content and border */
 }
 
 label {
