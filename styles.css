@@ -6,7 +6,7 @@ body, h1, h2, p, a {
 body {
     font-family: Arial, sans-serif;
     font-size: 14pt;
-    background-image: #1b1b2c; 
+    background-color: #1b1b2c; 
     color: #ffffff; 
     margin: 40pt; 
 }
