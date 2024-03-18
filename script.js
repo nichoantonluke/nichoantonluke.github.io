@@ -16,11 +16,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     menuItems.forEach(function(item) {
         item.addEventListener('mouseover', function() {
-            this.style.backgroundColor = 'transparent'; 
+            this.style.backgroundColor = '#867e05'; 
         });
 
         item.addEventListener('mouseout', function() {
-            this.style.backgroundColor = 'transparent'; 
+            this.style.backgroundColor = '#867e05'; 
         });
 
         item.addEventListener('click', function() {
