@@ -88,7 +88,6 @@ a:active {
 
 nav {
     text-align: right;
-    text-decoration: underline;
 }
 
 nav ul {
@@ -105,7 +104,6 @@ nav ul li {
 nav ul li a, nav ul li span {
     display: block;
     padding: 10px 20px;
-    text-decoration: underline;
     color: #ffffff;
 }
 
