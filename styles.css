@@ -115,7 +115,7 @@ nav ul li:hover > ul {
 nav ul ul {
     display: none;
     position: absolute;
-    background-color: #fff;
+    background-color: #00741f;
     border: 1px solid #ccc;
     padding: 0;
 }
@@ -144,7 +144,4 @@ nav ul ul li {
     margin-right: 20px; /* Adjust margin as needed */
 }
 
-label {
-    color: #ff0000    
-  }
 
