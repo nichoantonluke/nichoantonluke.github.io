@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
         item.addEventListener('mouseout', function() {
-            this.style.backgroundColor = '#867e05'; 
+            this.style.backgroundColor = 'transparent'; 
         });
 
         item.addEventListener('click', function() {
