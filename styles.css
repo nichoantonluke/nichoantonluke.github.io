@@ -75,7 +75,7 @@ a:active {
 
 .link-column a:link, .link-column a:visited{
     color: #9400fd; 
-    text-decoration: underline ;
+    text-decoration: none ;
 }
 
 .link-column a:hover {
