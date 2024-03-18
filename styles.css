@@ -38,7 +38,7 @@ p {
 
 a:link, a:visited {
     color: #ffffff; 
-    text-decoration: underline ;
+    text-decoration: none;
 }
 
 a:hover {
