@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     menuItems.forEach(function(item) {
         item.addEventListener('mouseover', function() {
-            this.style.backgroundColor = '#005fa3'; 
+            this.style.backgroundColor = 'transparent'; 
         });
 
         item.addEventListener('mouseout', function() {
