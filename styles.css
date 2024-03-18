@@ -98,6 +98,11 @@ nav ul {
     padding: 0;
 }
 
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
 nav ul li a {
     display: block;
     padding: 10px 20px; /* Increased padding for better clickability */
