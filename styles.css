@@ -88,6 +88,7 @@ a:active {
 
 nav {
     text-align: right;
+    text-decoration: underline;
 }
 
 nav ul {
@@ -104,8 +105,8 @@ nav ul li {
 nav ul li a, nav ul li span {
     display: block;
     padding: 10px 20px;
-    text-decoration: none;
-    color: #333;
+    text-decoration: underline;
+    color: #ffffff;
 }
 
 nav ul li:hover > ul {
@@ -115,8 +116,8 @@ nav ul li:hover > ul {
 nav ul ul {
     display: none;
     position: absolute;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: #00741f;
+    border: 2px solid #ffffff;
     padding: 0;
 }
 
