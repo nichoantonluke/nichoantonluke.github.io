@@ -98,32 +98,29 @@ nav ul {
 
 nav ul li {
     display: inline-block;
+    position: relative;
 }
 
-nav ul li a {
+nav ul li a, nav ul li span {
     display: block;
-    padding: 10px 20px; /* Increased padding for better clickability */
-    color: #ffffff; /* White text color */
+    padding: 10px 20px;
     text-decoration: none;
+    color: #333;
 }
 
-nav ul li a:hover {
-    background-color: #005fa3; /* Darker blue background color on hover */
+nav ul li:hover > ul {
+    display: block;
 }
 
 nav ul ul {
     display: none;
     position: absolute;
-    background-color: #005fa3; /* Darker blue color for submenus */
-    border: 1px solid #003d66; /* Darkest blue color for submenu border */
+    background-color: #fff;
+    border: 1px solid #ccc;
     padding: 0;
 }
 
 nav ul ul li {
-    display: block;
-}
-
-nav ul li:hover > ul {
     display: block;
 }
 
