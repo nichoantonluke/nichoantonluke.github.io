@@ -98,14 +98,10 @@ nav ul {
     padding: 0;
 }
 
-nav ul li {
-    display: inline-block;
-}
-
 nav ul li a {
     display: block;
     padding: 10px 20px; /* Increased padding for better clickability */
-    color: #fff; /* White text color */
+    color: #ffffff; /* White text color */
     text-decoration: none;
 }
 
@@ -150,8 +146,9 @@ nav ul li:hover > ul {
 }
 
 .section-box {
-    background-color: #f9feff;
-    border: 2px solid #ff0000; /* Border style */
+    background-color: #ffffff;
+    border: 2px solid #00741f; /* Border style */
     padding: 20px; /* Padding to create space between content and border */
+    text-align: center;
 }
 
