@@ -66,8 +66,8 @@ function changeColorScheme(scheme) {
       document.body.style.backgroundColor = 'black';
       document.body.style.color = 'white';
   } else {
-      document.body.style.backgroundColor = 'white';
-      document.body.style.color = 'black';
+      document.body.style.backgroundColor = '#2a2a47';
+      document.body.style.color = 'white';
   }
 }
 
