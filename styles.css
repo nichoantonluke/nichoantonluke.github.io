@@ -155,3 +155,7 @@ nav ul ul li {
     padding: 20px; /* Padding to create space between content and border */
 }
 
+.accessibility-options {
+    margin-bottom: 20px;
+}
+
