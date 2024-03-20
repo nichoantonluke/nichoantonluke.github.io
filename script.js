@@ -57,4 +57,15 @@ form.addEventListener('submit', function(event) {
   alert('Form submitted successfully!');
 });
 
+function changeFontSize(size) {
+  document.body.style.fontSize = size;
+}
+
+function changeColorScheme(scheme) {
+  if (scheme === 'highContrast') {
+    document.body.classList.add('high-contrast');
+  } else {
+    document.body.classList.remove('high-contrast');
+  }
+}
 
