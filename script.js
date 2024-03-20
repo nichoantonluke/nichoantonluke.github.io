@@ -63,9 +63,11 @@ function changeFontSize(size) {
 
 function changeColorScheme(scheme) {
   if (scheme === 'highContrast') {
-    document.body.classList.add('high-contrast');
+      document.body.style.backgroundColor = 'black';
+      document.body.style.color = 'white';
   } else {
-    document.body.classList.remove('high-contrast');
+      document.body.style.backgroundColor = 'white';
+      document.body.style.color = 'black';
   }
 }
 
