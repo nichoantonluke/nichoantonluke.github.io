@@ -5,11 +5,16 @@ body, h1, h2, p, a {
 
 body {
     font-family: Arial, sans-serif;
-    font-size: 14pt;
+    font-size: medium;
     background-color: #2a2a47; 
     color: #ffffff; 
     margin: 40pt; 
 }
+
+.high-contrast {
+    --main-bg-color: black;
+    --main-text-color: white;
+  }
 
 h1 {
     font-family: Verdana (san-serif);
