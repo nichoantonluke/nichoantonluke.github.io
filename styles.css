@@ -17,6 +17,11 @@ body {
     --main-text-color: white;
   }
 
+.default {
+    --main-bg-color: #2a2a47;
+    --main-text-color: white;
+}
+
 h1 {
     font-family: Verdana (san-serif);
     font-size: 50pt;
