@@ -12,6 +12,18 @@ body {
     transition: background-color 0.5s, color 0.5s; 
 }
 
+p{
+    font-size: medium;
+}
+
+ol{
+    font-size: medium;
+}
+
+li{
+    font-size: medium;
+}
+
 .high-contrast {
     --main-bg-color: black;
     --main-text-color: white;
