@@ -5,7 +5,7 @@ body, h1, h2, p, a {
 
 body {
     font-family: Arial, sans-serif;
-    font-size: medium;
+    font-size: 26pt;
     background-color: #2a2a47; 
     color: #ffffff; 
     margin: 40pt;
@@ -36,20 +36,20 @@ li{
 
 h1 {
     font-family: Verdana (san-serif);
-    font-size: 50pt;
+    font-size: 60pt;
     color: #00741f; 
     text-align: center;
     margin-top: 20px;
 }
 
 h2 {
-    font-size: 22pt;
+    font-size: 40pt;
     color: #00741f; 
     margin-top: 40px;
 }
 
 h3 {
-    font-size: 18pt;
+    font-size: 35pt;
     color: #00741f; 
     margin-top: 40px;
 }
