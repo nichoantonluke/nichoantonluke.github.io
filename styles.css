@@ -24,33 +24,23 @@ li{
     font-size: medium;
 }
 
-.high-contrast {
-    --main-bg-color: black;
-    --main-text-color: white;
-  }
-
-.default {
-    --main-bg-color: #2a2a47;
-    --main-text-color: white;
-}
-
 h1 {
     font-family: Verdana (san-serif);
     font-size: 60pt;
-    color: #00741f; 
+    color: #40ff73; 
     text-align: center;
     margin-top: 20px;
 }
 
 h2 {
     font-size: 40pt;
-    color: #00741f; 
+    color: #40ff73; 
     margin-top: 40px;
 }
 
 h3 {
     font-size: 35pt;
-    color: #00741f; 
+    color: #40ff73; 
     margin-top: 40px;
 }
 
@@ -69,7 +59,7 @@ a:hover {
 }
 
 a:active {
-    color: #3700ff; 
+    color: #00fdfd; 
 }
 
 /* Table layout */
@@ -97,7 +87,7 @@ a:active {
 }
 
 .link-column a:link, .link-column a:visited{
-    color: #9400fd; 
+    color: #00fdfd; 
     text-decoration: none ;
 }
 
@@ -158,22 +148,19 @@ nav ul ul li {
 
 .content-wrapper {
     display: flex;
-    align-items: center; /* Center items vertically */
+    align-items: center; 
 }
 
-/* Adjust spacing between image and section */
 #myImage {
-    margin-right: 20px; /* Adjust margin as needed */
-    border: 5px solid #00741f
+    margin-right: 20px; 
+    border: 5px solid #40ff73
 }
 
 .section-box {
     background-color: #2a2a47;
-    border: 5px solid #00741f; /* Border style */
-    padding: 20px; /* Padding to create space between content and border */
+    border: 5px solid #40ff73; 
+    padding: 20px; 
 }
 
-.accessibility-options {
-    margin-bottom: 20px;
-}
+
 
