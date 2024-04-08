@@ -122,7 +122,7 @@ nav ul li:hover > ul {
 
 nav ul ul li {
     display: block;
-    font-size: 16pt;
+    font-size: 12pt;
     position: absolute;
     background-color: #00741f;
     border: 2px solid #ffffff;
