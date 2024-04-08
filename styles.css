@@ -12,34 +12,22 @@ body {
     transition: background-color 0.5s, color 0.5s; 
 }
 
-p{
-    font-size: medium;
-}
-
-ol{
-    font-size: medium;
-}
-
-li{
-    font-size: medium;
-}
-
 h1 {
     font-family: Verdana (san-serif);
-    font-size: 60pt;
+    font-size: 50pt;
     color: #40ff73; 
     text-align: center;
     margin-top: 20px;
 }
 
 h2 {
-    font-size: 40pt;
+    font-size: 36pt;
     color: #40ff73; 
     margin-top: 40px;
 }
 
 h3 {
-    font-size: 35pt;
+    font-size: 26pt;
     color: #40ff73; 
     margin-top: 40px;
 }
@@ -47,6 +35,14 @@ h3 {
 p {
     font-size: 16pt;
     color: #ffffff; 
+}
+
+ul {
+    font-size: 16pt;
+}
+
+li {
+    font-size: 16pt;
 }
 
 a:link, a:visited {
@@ -124,16 +120,14 @@ nav ul li:hover > ul {
     display: block;
 }
 
-nav ul ul {
-    display: none;
+nav ul ul li {
+    display: block;
+    font-size: 16pt;
     position: absolute;
     background-color: #00741f;
     border: 2px solid #ffffff;
     padding: 0;
-}
-
-nav ul ul li {
-    display: block;
+    
 }
 
 .menu-item {
@@ -161,6 +155,7 @@ nav ul ul li {
     border: 5px solid #40ff73; 
     padding: 20px; 
 }
+
 
 
 
