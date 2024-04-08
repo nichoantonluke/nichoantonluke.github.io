@@ -57,17 +57,5 @@ form.addEventListener('submit', function(event) {
   alert('Form submitted successfully!');
 });
 
-function changeFontSize(size) {
-  document.body.style.fontSize = size;
-}
 
-function changeColorScheme(scheme) {
-  if (scheme === 'highContrast') {
-      document.body.style.backgroundColor = 'black';
-      document.body.style.color = 'white';
-  } else {
-      document.body.style.backgroundColor = '#2a2a47';
-      document.body.style.color = 'white';
-  }
-}
 
