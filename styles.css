@@ -120,14 +120,18 @@ nav ul li:hover > ul {
     display: block;
 }
 
-nav ul ul li {
-    display: block;
+nav ul ul {
+    display: none;
     font-size: 12pt;
     position: absolute;
     background-color: #00741f;
     border: 2px solid #ffffff;
     padding: 0;
     
+}
+
+nav ul ul li {
+    display: block;
 }
 
 .menu-item {
